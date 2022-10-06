@@ -1,7 +1,7 @@
 /* main Style */
 body {
     font-family: 'Gemunu Libre', sans-serif;
-    
+    background: url(https://www.wallpaperup.com/uploads/wallpapers/2012/08/04/8032/b7fe125c4788ce56f4e3f277c8f40dcb.jpg);
 
 }
 
@@ -58,20 +58,30 @@ a {
     justify-content: center;
     font-size: 60px;
     font: bold;
-    color: black;
     
 }
 
 .item1 {
     background-color: aqua;
     background: url(https://www.trecebits.com/wp-content/uploads/2020/05/code-5113374_1920-1-800x445.jpg);
+    background-size: 280%;
     
 }
 .item2 {
     background: url(https://cdn4.vectorstock.com/i/1000x1000/40/03/music-equaliser-frequency-graph-vector-17714003.jpg);
-    background-size: 150%;
+    background-size: 280%;
 }
 .item3 {
     background: url(../img/saltando.jpg);
-    background-size: 100%;
+    background-size: 200%;
+    background-position: 15rem;
+}
+.bodyprojects {
+    background: url(https://www.wallpaperup.com/uploads/wallpapers/2012/08/04/8032/b7fe125c4788ce56f4e3f277c8f40dcb.jpg);
+}
+.form {
+    margin: 50px;
+    padding: 20px;
+    color: azure;
+    font-size: x-large;
 }
