@@ -6,7 +6,8 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
+    background-color: rgb(53, 64, 73);
 }
 
 h2 {
@@ -55,16 +56,20 @@ a {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:start;
     font-size: 60px;
     font: bold;
     
 }
 
+.iniciomenu:hover {
+    transform: scale(1.5);
+}
+
 .item1 {
     background-color: aqua;
     background: url(https://www.trecebits.com/wp-content/uploads/2020/05/code-5113374_1920-1-800x445.jpg);
-    background-size: 280%;
+    background-size: 300%;
     
 }
 .item2 {
@@ -84,4 +89,35 @@ a {
     padding: 20px;
     color: azure;
     font-size: x-large;
+}
+
+.people {
+    background-color: black;
+    margin: 20px;
+}
+
+.table {
+    background-color: aliceblue;
+}
+footer {
+    display: flex;
+    background-color: beige;
+    justify-content: center;
+
+}
+footer div {
+    display: flex;
+    align-items: center;
+}
+footer ul li {
+    
+    margin: 0, 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 768px) {
+    .item 
+
 }
